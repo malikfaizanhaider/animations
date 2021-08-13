@@ -10,7 +10,7 @@ Your favorite [animate.css](https://animate.style/) effects available as ES modu
 ## Installation
 
 ```bash
-npm install @i2c-style/animations
+npm i @i2cinc/animations
 ```
 
 ## Usage
@@ -18,19 +18,19 @@ npm install @i2c-style/animations
 Importing all animations:
 
 ```js
-import * as animations from '@i2c-style/animations';
+import * as animations from '@i2cinc/animations';
 ```
 
 Importing individual animations:
 
 ```js
-import { bounce } from '@i2c-style/animations';
+import { bounce } from '@i2cinc/animations';
 ```
 
 Importing easings:
 
 ```js
-import { easings } from '@i2c-style/animations';
+import { easings } from '@i2cinc/animations';
 ```
 
 Animating an element:
@@ -39,7 +39,7 @@ Animating an element:
 <div style="display: block; width: 100px; height: 100px; background: tomato; margin: 2rem;"></div>
 
 <script type="module">
-  import { easings, flip } from 'https://cdn.jsdelivr.net/npm/@i2c-style/animations@1/dist/index.js';
+  import { easings, flip } from 'https://cdn.jsdelivr.net/npm/@i2cinc/animations@1/dist/index.js';
 
   const box = document.querySelector('div');
 
@@ -52,7 +52,7 @@ Animating an element:
 ```
 
 
-This example uses the [jsDelivr CDN](https://www.jsdelivr.com/). To import the library locally, install it and make `node_modules/@i2c-style/animations/dist` available to your app or bundler.
+This example uses the [jsDelivr CDN](https://www.jsdelivr.com/). To import the library locally, install it and make `node_modules/@i2cinc/animations/dist` available to your app or bundler.
 
 ## Developers
 
