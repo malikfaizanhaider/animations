@@ -1,12 +1,5 @@
 # Animations
 
-Your favorite [animate.css](https://animate.style/) effects available as ES modules for use with the [Web Animations API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API).
-
-- 🏆 ~100 quality animations
-- 🎾 ~30 popular easings
-- 🚚 Works with CDNs
-- 🌲 Fully tree-shakeable
-
 ## Installation
 
 ```bash
@@ -56,12 +49,8 @@ This example uses the [jsDelivr CDN](https://www.jsdelivr.com/). To import the l
 
 ## Developers
 
-This script parses all animation stylesheets found in `node_modules/animate.css` and generates [keyframe objects](https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats) that you can use with the [Web Animations API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API). As animations are tweaked and added to animate.css, the keyframes herein will be kept in sync when rerunning the script.
-
 To build the project, run:
 
 ```bash
 npm run build
 ```
-
-This will purge and rebuild the `dist` directory.
